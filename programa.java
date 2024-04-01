@@ -14,6 +14,6 @@ public class programa {
         // ex12.executar();
         // ex13.executar();
         // ex14.executar();
-        ex15.executar();
-    }   
+        // ex15.executar();
+    }   ex16.executar();
 }
