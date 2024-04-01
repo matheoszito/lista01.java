@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ex13 {
 
+    
 
     public static void executar() {
         Scanner scanner = new Scanner(System.in);
@@ -17,7 +18,7 @@ public class ex13 {
         System.out.print("Digite o operador (+, -, *, /): ");
         char operador = scanner.next().charAt(0);
 
-        // Realiza a operação com base no operador inserido
+        // Verifica se o operador inserido é válido e executa a operação correspondente
         double resultado = 0;
         switch (operador) {
             case '+':
@@ -38,7 +39,7 @@ public class ex13 {
                 }
                 break;
             default:
-                System.out.println("Operador inválido.");
+                System.out.println("Operador não definido.");
                 return;
         }
 
@@ -49,6 +50,12 @@ public class ex13 {
         scanner.close();
     }
 }
+
+
+
+    
+    
+
 
 
 
