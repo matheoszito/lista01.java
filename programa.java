@@ -1,6 +1,5 @@
 public class programa {
     public static void main(String[] args) {
-        //
         // ex01.executar();
         // ex02.executar();
         // ex03.executar();
@@ -11,8 +10,8 @@ public class programa {
         // ex08.executar();
         // ex09.executar();
         // ex10.executar();
-        ex11.executar();
-
+        // ex11.executar();
+        ex12.executar();
 
     }   
 }
