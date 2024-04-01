@@ -7,7 +7,7 @@ public class ex11 {
     public static void executar() {
         Scanner scanner = new Scanner(System.in);
 
-        // Solicita ao usuário que insira os três valores inteiros distintos
+ 
         System.out.print("Digite o primeiro número inteiro: ");
         int numero1 = scanner.nextInt();
 
@@ -17,7 +17,7 @@ public class ex11 {
         System.out.print("Digite o terceiro número inteiro: ");
         int numero3 = scanner.nextInt();
 
-        // Ordena os números em ordem crescente
+     
         if (numero1 <= numero2 && numero1 <= numero3) {
             System.out.print(numero1 + ", ");
             if (numero2 <= numero3) {
@@ -47,7 +47,6 @@ public class ex11 {
             }
         }
 
-        // Fecha o scanner
         scanner.close();
     }
 }

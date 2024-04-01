@@ -7,11 +7,9 @@ public class ex12 {
     public static void executar() {
         Scanner scanner = new Scanner(System.in);
 
-        // Solicita ao usuário que insira o número do mês
         System.out.print("Digite o número do mês (1 a 12): ");
         int numeroMes = scanner.nextInt();
 
-        // Verifica se o número do mês é válido e mostra o mês correspondente
         switch(numeroMes) {
             case 1:
                 System.out.println("Janeiro");
@@ -54,7 +52,7 @@ public class ex12 {
                 break;
         }
 
-        // Fecha o scanner
+  
         scanner.close();
     }
 }

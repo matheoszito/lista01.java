@@ -1,5 +1,4 @@
-// Escreva um algoritmo que leia dois números digitados pelo usuário e exiba
-// oresultado da sua soma.
+
 
 import java.util.Scanner;
 

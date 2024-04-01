@@ -5,11 +5,9 @@ public class ex10 {
     public static void executar() {
         Scanner scanner = new Scanner(System.in);
 
-        // Solicita ao usuário que insira um número
         System.out.print("Digite um número de 1 a 5: ");
         int numero = scanner.nextInt();
 
-        // Verifica se o número está dentro do intervalo de 1 a 5
         switch (numero) {
             case 1:
                 System.out.println("Número por extenso: Um");
