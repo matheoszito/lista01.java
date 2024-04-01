@@ -4,5 +4,11 @@ public class programa {
         // ex01.executar();
         // ex02.executar();
         // ex03.executar();
-    }   ex04.executar();
+        // ex04.executar();
+        ex05.executar();
+    
+    
+
+
+    }   // ex04.executar();
 }
