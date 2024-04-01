@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class ex06 {
     
-    public static void main(String[] args) {
+    public static void executar() {
         Scanner scanner = new Scanner(System.in);
 
         // Solicita ao usuário que insira a temperatura em Celsius
